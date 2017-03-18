@@ -83,7 +83,7 @@ int main(void){
   srand( time(NULL));
   
 	char topLine[]    = "**********************************\n";
-	char middleLine[] = "** Welcome to EECS22 BlackJack! **\n";
+	char middleLine[] = "** Welcome to BlackJack!        **\n";
 	char bottomLine[] = "**********************************\n";
 
 	printf("%s%s%s", topLine, middleLine, bottomLine, "\n");
