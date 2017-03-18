@@ -1,0 +1,55 @@
+Script started on Tue 07 Oct 2014 08:57:17 PM PDT
+crystalcove% gcc blackjack.c -o blackj -ansi -Wall
+blackjack.c: In function ‘main’:
+blackjack.c:89: warning: too many arguments for format
+crystalcove% ./blackj
+**********************************
+** Welcome to EECS22 BlackJack! **
+**********************************
+Your first card is: 9
+Do you want a another card?
+Type 1 for Yes, 0 for No: 1
+Your next card is: 4
+Your combined value is: 13
+Do you want a another card?
+Type 1 for Yes, 0 for No: 1
+Your next card is: 10
+Your combined value is: 23
+Sorry, you lose!
+crystalcove% ./blackj
+**********************************
+** Welcome to EECS22 BlackJack! **
+**********************************
+Your first card is: 7
+Do you want a another card?
+Type 1 for Yes, 0 for No: 1
+Your next card is: 2
+Your combined value is: 9
+Do you want a another card?
+Type 1 for Yes, 0 for No: 1
+Your next card is: 2
+Your combined value is: 11
+Do you want a another card?
+Type 1 for Yes, 0 for No: 1
+Your next card is: 10
+Your combined value is: 21
+Do you want a another card?
+Type 1 for Yes, 0 for No: 0
+
+Dealer draws another card.
+Dealer's card is: 4
+Dealer's value is 4, you have 21
+Dealer draws another card.
+Dealer's card is: 10
+Dealer's value is 14, you have 21
+Dealer draws another card.
+Dealer's card is: 6
+Dealer's value is 20, you have 21
+Dealer draws another card.
+Dealer's card is: 3
+Dealer's value is 23, you have 21
+Dealer loses. You win!
+crystalcove% exit
+exit
+
+Script done on Tue 07 Oct 2014 08:58:14 PM PDT

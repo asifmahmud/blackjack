@@ -1,0 +1,14 @@
+
+   Name: Asif Mahmud
+   Student ID: 70556749
+   Homework #1
+   blackjack.c
+
+How I designed my program:
+    1. I have created two functions: playerPrompt and dealerSimulation. One deals cards to the player prompts for additional options and calculates the total.
+       The other simulates dealer's cards and calculates the total.
+       
+    2. In the function which deals cards to the player, I call dealerSimulation when the player presses 0, indicating that he no longer wants cards to be dealt.
+       dealerSimulation then takes the total of the player and runs dealer simulation. The results are then displayed accordingly.
+    
+    3. In the main function, I call playerPrompt to start the game.
