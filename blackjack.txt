@@ -14,3 +14,7 @@ How I designed my program:
    The results are then displayed accordingly.
 
 3. In the main function, I call playerPrompt to start the game.
+
+
+
+
